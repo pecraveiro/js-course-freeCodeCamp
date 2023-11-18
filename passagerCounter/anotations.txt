@@ -1,0 +1,28 @@
+//DOM - Document Object Model
+//Document - HTML DOCUMENT
+//Object - Datatype in html
+//Model - Represatation / Modelation
+
+//Model Example
+/*
+    HTML
+    <h2 id "count-element">0</h2>
+
+    Model
+    let countElement = document.getElementById("count-element")
+
+    //DOM -> How to use JS to modify a website
+*/
+
+Recap
+- Script tag / Script file
+- Variables
+- Data type: Numbers
+- Data type: Strings
+- Strings
+- console.log() 
+- Functions
+- The DOM
+- getElementById()
+- innerText()
+- textContent()

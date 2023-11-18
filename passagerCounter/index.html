@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passager Counter</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Title and counter -->
+        <h1>People entered:</h1>
+        <h2 id="count-element">0</h2>
+
+        <button id="increment-btn" onclick="increment()">Increment</button>
+
+        <button id="save-btn" onclick="saveCount()">Store Count</button>
+
+        <p id="prev-entries">Previous Entries: </p>
+
+        <button id="reset-btn" onclick="resetCount()">Reset Count</button>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
