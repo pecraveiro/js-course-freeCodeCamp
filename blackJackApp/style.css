@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-image: url('asstes/background-blackjack.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+h1 {
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}	
+
+#message-element{
+    font-style: italic;
+}
+
+.startGame-btn{
+    background-color: goldenrod;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animação do botão / Button Animation */
+
+.startGame-btn:hover{
+    transform: scale(1.1);
+}
