@@ -1,3 +1,8 @@
+//player Object
+let player = {
+    name: "Pedro",
+    money: 1000
+};
 //definicao de variáveis
 let cards = [] //array - lista de elementos
 let sum = 0
@@ -7,13 +12,6 @@ let message = ""
 let messageEl = document.getElementById("message-el")
 let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById("cards-el")
-
-//player Object
-let player = {
-    name: "Pedro",
-    money: 1000
-};
-
 let playerEl = document.getElementById("player-el")
 playerEl.textContent = "Player: " + player.name + " │ $" + player.money
 

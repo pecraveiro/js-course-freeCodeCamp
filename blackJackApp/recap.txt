@@ -1,0 +1,9 @@
+Arrays
+Objects
+Booleans
+If Else Statements
+Comparison Operators
+Logical Operators
+For Loops
+The Math Object
+Return Statements   
