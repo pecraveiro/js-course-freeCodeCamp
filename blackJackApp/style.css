@@ -5,7 +5,7 @@
     font-family: 'Inter', sans-serif;
 }
 
-body{
+body {
     background-image: url('asstes/background-blackjack.jpg');
     background-size: cover;
     display: flex;
@@ -21,30 +21,35 @@ body{
 h1 {
     color: goldenrod;
     margin-bottom: 20px;
+    font-size: 50px;
 }
 
 p {
+    font-size: 20px;
     margin-bottom: 20px;
-}	
+}
 
-#message-element{
+#message-element {
     font-style: italic;
 }
 
-.startGame-btn{
+button{
     background-color: goldenrod;
     color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
     font-size: 1.2rem;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    border: none;
+    width: 150px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
 /* Animação do botão / Button Animation */
 
-.startGame-btn:hover{
+button:hover {
     transform: scale(1.1);
 }
